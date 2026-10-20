@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx --yes @aisuite/chub update 2>/dev/null"
+          }
+        ]
+      }
+    ]
+  }
+}
